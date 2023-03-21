@@ -1,0 +1,15 @@
+.containerResumen {
+  width: 100vw;
+  display: flex;
+  overflow-y: scroll;
+  flex-direction: column;
+  gap: 600px;
+  background-color: aqua;
+}
+
+.prueba {
+  width: 100px;
+  height: 50px;
+  background-color: blueviolet;
+  opacity: 0;
+}
