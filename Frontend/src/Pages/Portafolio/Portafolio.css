@@ -1,0 +1,22 @@
+.portafolio {
+  width: 100vw;
+  height: 100vh;
+  padding-top: 50px;
+  background-image: url(../../assets/wallpaper.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+}
+
+.portafolio > .info {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  width: 90%;
+  border-radius: 10px;
+  background-color: rgba(0, 0, 0, 0.6);
+  backdrop-filter: blur(5px);
+  padding: 25px;
+}

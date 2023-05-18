@@ -44,10 +44,6 @@ const Router = [
     name: 'Portfolio',
   },
   {
-    path: '/resumen',
-    name: 'Resumen',
-  },
-  {
     path: '/about',
     name: 'About',
   },
@@ -92,7 +88,7 @@ function Presentation() {
         <p ref={infoDescription}>
           I am a passionate <strong>web Developer</strong> from Colombia
         </p>
-        <div ref={navigator}>
+        <div className='lista' ref={navigator}>
           <ul>
             {Router.map((route) => (
               <li key={route.name}>

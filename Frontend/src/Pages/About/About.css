@@ -1,0 +1,217 @@
+.about {
+  width: 100%;
+  height: 100%;
+  padding-top: 50px;
+  background-image: url(../../assets/wallpaper.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+}
+
+.about > .info {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  width: 90%;
+  border-radius: 10px;
+  background-color: rgba(0, 0, 0, 0.6);
+  backdrop-filter: blur(5px);
+  padding: 25px;
+}
+
+.about > .info > h1 {
+  font-family: Poppins-ExtraBold;
+  font-size: 2rem;
+  /* color: #ff7a00; */
+  color: white;
+}
+
+.bibiografia > section > div > img {
+  width: 350px;
+  height: 350px;
+  border-radius: 50%;
+  margin-top: 40px;
+}
+
+.bibiografia > section > div > div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 60%;
+  gap: 10px;
+}
+
+.bibiografia > section > div > div > h1 {
+  font-family: Poppins-Bold;
+  font-size: 1.9rem;
+  color: #ff7a00;
+}
+
+.bibiografia > section > div > div > p {
+  font-family: Poppins-Regular;
+  color: white;
+}
+
+.bibiografia > section > div:first-of-type {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-around;
+}
+
+.bibiografia > section > div > div > .infoPersonal {
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: auto auto;
+  gap: 10px;
+}
+
+.bibiografia > section > div > div > .infoPersonal > p {
+  color: white;
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  font-family: Poppins-Regular;
+}
+
+.infoPersonal > p > strong {
+  font-family: Poppins-Bold;
+  color: #ffffff;
+  margin-left: 0px;
+  margin-right: 0px;
+}
+
+.infoPersonal > p > strong:after {
+  content: '';
+  display: block;
+  width: 100%;
+  height: 5px;
+  border-radius: 5px;
+  background-color: #ff7a00;
+}
+
+.bibiografia > section > div > .skill {
+  margin-top: 30px;
+  width: 75%;
+  padding: 0px 10px 0px 20px;
+}
+
+.bibiografia > section > div > .skill > h1 {
+  font-family: Poppins-Bold;
+  font-size: 1.3rem;
+  color: white;
+}
+
+.skill > section {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.skill > section > div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+  border-radius: 5px;
+  gap: 10px;
+  font-family: Poppins-Bold;
+}
+
+.skill > section > div > p {
+  color: white;
+}
+
+.skill > section > div > svg {
+  width: 25px;
+  height: 25px;
+}
+
+.containerSkill {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.bibiografia > section > div > .interest > h1 {
+  font-family: Poppins-Bold;
+  font-size: 1.3rem;
+  color: white;
+}
+
+.interest > section {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.interest > section > div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+  border-radius: 5px;
+  gap: 10px;
+  font-family: Poppins-Bold;
+}
+
+.interest > section > div > svg {
+  width: 30px;
+  height: 30px;
+}
+
+.interest > section > div > p {
+  color: white;
+}
+
+.bibiografia > section > div > .interest {
+  margin-top: 30px;
+  width: 75%;
+  padding: 0px 10px 0px 20px;
+}
+
+.stat {
+  margin-top: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  gap: 50px;
+}
+
+.stat > section {
+  width: 220px;
+  height: 150px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 15px;
+  background-color: rgba(0, 0, 0, 0.447);
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.stat > section > h2 {
+  font-family: Poppins-Bold;
+  color: #ffffff;
+}
+
+.stat > section > p {
+  font-family: Poppins-Bold;
+  font-size: 2rem;
+  color: #ffffff;
+}
